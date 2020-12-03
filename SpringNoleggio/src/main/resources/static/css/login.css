@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 18, 2020, 3:10:10 PM
+    Author     : mprisacar
+*/
+
+.formLogin{
+    position: absolute;
+    top: 80px;
+    border: 2px;
+    border: solid;
+    background-color: lightseagreen;
+    width: 80%;
+    padding-left: 10%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.insertLogin{
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.submitLogin{
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    cursor: pointer;
+}

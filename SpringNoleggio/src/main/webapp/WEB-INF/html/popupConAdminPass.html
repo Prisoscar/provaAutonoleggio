@@ -1,0 +1,18 @@
+<div class = "popup">
+                <form action ="" method ="post">
+                    <h3 class="popupLabel">${azione} ${oggetto}?</h3>
+                    <br>
+                    <p class = "popupLabel" style = "color: red;">${errorePass}</p>
+                    <p class="popupLabel">Inserisci password admin</p>
+                    <input class ="popupInput" type ="password" name ="password">
+                    <br><br>
+                    <div class="popupButtons">
+                        <input type='hidden' name = "contatoreCilindrata" value='${contatoreCilindrata}'>
+                        <input type='hidden' name = "contatore" value='${contatore}'>
+                        <input type='hidden' name = "idMarca" value='${idMarca}'>
+                        <input type='hidden' name = "id" value='${id}'>
+                        <input class = "popupButtonRight" type ="submit" name ="conferma" value = "conferma" formaction="confermaCancellazione">
+                        <input class = "popupButtonLeft" type ="submit" name =" annulla " value = "annulla" formaction="annullaCancellazione">
+                    </div>
+                </form>
+            </div>

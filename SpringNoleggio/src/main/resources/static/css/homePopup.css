@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2020, 1:24:39 PM
+    Author     : mprisacar
+*/
+.popup{
+    background-color: greenyellow;
+    position: absolute;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    top: 150px;
+    border: 2px solid tomato;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.popupButtons{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    display: flex;
+    justify-content: center;
+}
+.popupInput{
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.popupButtonLeft{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: left;
+    cursor: pointer;
+}
+.popupButtonRight{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: right;
+    cursor: pointer;
+}
+.popupLabel{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.popupOuter{
+    filter: blur(3px);
+    pointer-events: none;
+}
